@@ -1,0 +1,14 @@
+OSI (Open Systems Interconnection)
+ISO (International Organization for
+Standardization)
+
+1 Application layer				(pen and book)
+2 Presentation layer				(content => srr p tai ta thi ya tl)
+3 Session layer						(1/23/2024 => yout mae time) 2 week
+4 Transport layer(segement)	(bus/car/aeroplane) 
+5 Network layer(package)		(encrpty decrepty) to make cover  (message/present))
+6 Data link layer(fram)			(path ways)
+7 Physical layer(electric)		(ta kal youth)
+
+User Datagram Protocol (UDP)
+

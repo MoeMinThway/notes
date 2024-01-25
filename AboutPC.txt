@@ -1,0 +1,10 @@
+msinfo32      			  gen 
+dfrgui        			  SSD
+diskmgmt.msc    			device manager (Driver)
+appwiz.cpl (yoyo)			Uninstall(io bit => file aknoe delete)
+control system				about pc
+dxdiag								gaming (DirectX 12)
+ncpa.cpl							network
+sysdm.cpl						PC name 
+
+wmic bios get serialnumber(cmd)

@@ -1,0 +1,7 @@
+php -S localhost:8000 ex1.php 
+(only one file)
+s
+php  ex1.php  (run)
+
+(many files)
+http://localhost/php_lessons

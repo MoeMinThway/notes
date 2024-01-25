@@ -1,0 +1,94 @@
+composer create-project laravel/laravel example-app "8.*"
+composer create-project laravel/laravel 1_laravel "8.*"
+
+cmd
+
+Desgin Pattern
+
+MVC( Model + view + controller) (laravel)
+MVVM (Model View + View Model)
+MVP( model + view  + Presenter)
+MVA (model +view + Adapter)
+
+php artisan serve 
+=> run
+
+http://127.0.0.1:8000/
+
+http://localhost/1_laravel/public/
+
+url =>http://localhost/1_laravel/public/
+uri => /home
+
+to see all the rout list
+=======================
+ php artisan rout:list 
+
+
+//controller
+php artisan make:controller CustomerController
+
+
+//folder 
+php artisan make:controller VIP/MaleController
+
+
+
+User Data request
+
+Client -> web.php -> controller-> model ->
+ database - >response -> controller -> web.php -> client 
+
+
+//model
+php artisan make:model modelName
+
+
+//to connect database and add(up)
+php artisan migrate
+
+
+//to create
+php artisan make:migration test
+
+//show running db(list)
+php artisan migrate:status
+
+//down
+php artisan migrate:rollback
+
+//down + up
+ php artisan migrate:fresh   
+
+//laravel database migration data type
+https://www.grepper.com/answers/278138/laravel+table+data+types
+
+
+ model+ Table(-m => migration )
+php artisan make:model modelName -m
+
+// model + table + controller
+ php artisan make:model man -mc  
+
+Query builder vs Elequent
+
+Raw Query
+
+select * from where
+insert into value
+delete from where
+update set where
+
+select *from customer
+
+$csutomer->all();
+
+
+ php artisan make:factory PostFactory
+ php artisan make:seeder PostSeeder  
+php artisan db:seed      
+
+php artisan migrate:fresh --seed
+
+//to link storage to public
+php artisan storage:link

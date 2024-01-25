@@ -1,0 +1,20 @@
+cd D:\javascript_projects
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/MoeMinThway/javascript_project.git
+
+git push -u origin master
+
+
+
+cd D:\javascript_projects
+git clone <repository_url>
+git add <file_name>
+git commit -m "Add new file"
+git push origin <branch_name>
+
+git push origin master
+
+git remote add origin https://github.com/MoeMinThway/PHP-learning.git
+git remote add origin https://github.com/MoeMinThway/Code-Lab.git
